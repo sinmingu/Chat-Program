@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Login\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
         "source": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Login\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Chat-Program1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Chat-Program1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

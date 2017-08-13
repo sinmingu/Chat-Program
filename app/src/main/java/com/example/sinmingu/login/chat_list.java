@@ -72,6 +72,7 @@ public class chat_list extends BaseActivity {
 
         friend_list=(ListView)findViewById(R.id.friend_list);
         cursor = db.rawQuery("SELECT id as _id, friend_id FROM FRIENDS WHERE id='"+user_id+"';",null);
+
         /*
         if(cursor!=null){
             Log.d("커서",String.valueOf(cursor.getCount()));
@@ -146,12 +147,12 @@ public class chat_list extends BaseActivity {
         TabHost tabHost = (TabHost)findViewById(R.id.tab_host);
         tabHost.setup();
 
-        // Tab1 Setting
+        // Tab1 친구
         TabHost.TabSpec tabSpec1 = tabHost.newTabSpec("Tab1").setIndicator("",getResources().getDrawable(R.drawable.friend));
         tabSpec1.setContent(R.id.tab1); // Tab Content
         tabHost.addTab(tabSpec1);
 
-        // Tab2 Setting
+        // Tab2 채팅
         TabHost.TabSpec tabSpec2 = tabHost.newTabSpec("Tab2").setIndicator("",getResources().getDrawable(R.drawable.chat));
         tabSpec2.setContent(R.id.tab2); // Tab Content
         tabHost.addTab(tabSpec2);

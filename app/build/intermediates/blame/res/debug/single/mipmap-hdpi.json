@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Chat-Program1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Chat-Program1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Login\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Login\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
