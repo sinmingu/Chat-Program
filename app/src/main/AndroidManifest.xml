@@ -10,16 +10,26 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activitys.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".new_member_join" />
-        <activity android:name=".chat_list" />
+        <activity android:name=".Activitys.new_member_join" />
+        <activity android:name=".Activitys.chat_list" />
 
+        <service android:name=".FirebaseService.FirebaseMessageService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name=".FirebaseService.FirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
         <receiver
             android:name=".MyReceiver"
             android:enabled="true"
