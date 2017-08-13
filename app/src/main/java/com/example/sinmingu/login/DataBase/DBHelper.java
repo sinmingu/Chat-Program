@@ -1,4 +1,4 @@
-package com.example.sinmingu.login;
+package com.example.sinmingu.login.DataBase;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -26,7 +26,7 @@ public class DBHelper extends SQLiteOpenHelper {
     final String CHATROOMMEMBERLIST = "CREATE TABLE CHATROOMMEMBERLIST (f_chatroom_id INTEGER NOT NULL, f_user_id TEXT NOT NULL, readdate TIMESTAMP, FOREIGN KEY(f_chatroom_id) REFERENCES CHATROOM(id) ON DELETE CASCADE ON UPDATE CASCADE , FOREIGN KEY(f_user_id) REFERENCES USER(id) ON UPDATE CASCADE ON DELETE CASCADE, PRIMARY KEY(f_chatroom_id,f_user_id));";
     //    final String CHATMESSAGE = "CREATE TABLE CHATMESSAGE (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, f_chatroom_id INTEGER NOT NULL, f_send_id TEXT NOT NULL, message TEXT NOT NULL, regdate TIMESTAMP, FOREIGN KEY(f_chatroom_id) REFERENCES CHATROOM(id) ON DELETE CASCADE ON UPDATE CASCADE, FOREIGN KEY(f_send_id) REFERENCES USER(id) ON UPDATE CASCADE);";
     final String CHATMESSAGE = "CREATE TABLE CHATMESSAGE (id INTEGER PRIMARY KEY NOT NULL, f_chatroom_id INTEGER NOT NULL, f_send_id TEXT NOT NULL, message TEXT NOT NULL, regdate TIMESTAMP DEFAULT CURRENT_TIMESTAMP, FOREIGN KEY(f_chatroom_id) REFERENCES CHATROOM(id) ON DELETE CASCADE ON UPDATE CASCADE, FOREIGN KEY(f_send_id) REFERENCES USER(id) ON UPDATE CASCADE);";
-    final String FRIENDS = "CREATE TABLE FRIENDS (id TEXT NOT NULL, friend_id TEXT NOT NULL, regdate TIMESTAMP DEFAULT CURRENT_TIMESTAMP, FOREIGN KEY(id) REFERENCES USER(id) ON DELETE CASCADE ON UPDATE CASCADE, PRIMARY KEY(id,friend_id));";
+    final String FRIENDS = "CREATE TABLE FRIENDS (id TEXT NOT NULL, friend_id TEXT NOT NULL, regdate TIMESTAMP DEFAULT CURRENT_TIMESTAMP, FOREIGN KEY(id) REFERENCES USER(id) ON DELETE CASCADE ON UPDATE CASCADE, FOREIGN KEY(friend_id) REFERENCES USER(id) ON DELETE CASCADE ON UPDATE CASCADE, PRIMARY KEY(id,friend_id));";
 
     public DBHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
