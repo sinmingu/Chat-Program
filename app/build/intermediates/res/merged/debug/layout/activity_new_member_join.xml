@@ -10,7 +10,7 @@
     android:paddingBottom="10dp"
     android:paddingRight="15dp"
     android:paddingLeft="15dp"
-    tools:context="com.example.sinmingu.login.new_member_join">
+    tools:context="com.example.sinmingu.login.Activitys.new_member_join">
 
 
 

@@ -1,7 +1,7 @@
-#Fri Aug 11 15:37:56 KST 2017
-base.0=C\:\\Users\\sinmingu\\AndroidStudioProjects\\Login\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e23316c54fd2ed11733fec570273d03452a56718
+#Tue Aug 15 16:39:58 KST 2017
+base.0=C\:\\Users\\sinmingu\\AndroidStudioProjects\\Chat-Program1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_30fdd37e22c6665965aa6dd606f0a585732cada6
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=C\:\\Users\\sinmingu\\AndroidStudioProjects\\Login\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e36283521545e47685223d15830dc523cb87c017\\classes.dex
-base.1=C\:\\Users\\sinmingu\\AndroidStudioProjects\\Login\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e36283521545e47685223d15830dc523cb87c017
-file.0=C\:\\Users\\sinmingu\\AndroidStudioProjects\\Login\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e23316c54fd2ed11733fec570273d03452a56718\\classes.dex
+file.1=C\:\\Users\\sinmingu\\AndroidStudioProjects\\Chat-Program1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9434888fb195be86d4ba408d48421655ebab0699\\classes.dex
+base.1=C\:\\Users\\sinmingu\\AndroidStudioProjects\\Chat-Program1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9434888fb195be86d4ba408d48421655ebab0699
+file.0=C\:\\Users\\sinmingu\\AndroidStudioProjects\\Chat-Program1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_30fdd37e22c6665965aa6dd606f0a585732cada6\\classes.dex

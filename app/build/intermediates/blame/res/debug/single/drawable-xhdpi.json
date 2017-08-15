@@ -4,14 +4,6 @@
         "source": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Chat-Program1\\app\\src\\main\\res\\drawable-xhdpi\\r_msg_balloon.9.png"
     },
     {
-        "merged": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Login\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\r_msg_balloon.9.png",
-        "source": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Login\\app\\src\\main\\res\\drawable-xhdpi\\r_msg_balloon.9.png"
-    },
-    {
-        "merged": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Login\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\l_msg_balloon.9.png",
-        "source": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Login\\app\\src\\main\\res\\drawable-xhdpi\\l_msg_balloon.9.png"
-    },
-    {
         "merged": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Chat-Program1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\l_msg_balloon.9.png",
         "source": "C:\\Users\\sinmingu\\AndroidStudioProjects\\Chat-Program1\\app\\src\\main\\res\\drawable-xhdpi\\l_msg_balloon.9.png"
     }
