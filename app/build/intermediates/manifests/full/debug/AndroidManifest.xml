@@ -20,18 +20,29 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-        <activity android:name="com.example.sinmingu.login.MainActivity" >
+        <activity android:name="com.example.sinmingu.login.Activitys.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.sinmingu.login.new_member_join" />
-        <activity android:name="com.example.sinmingu.login.chat_list" />
+        <activity android:name="com.example.sinmingu.login.Activitys.new_member_join" />
+        <activity android:name="com.example.sinmingu.login.Activitys.chat_list" />
+
+        <service android:name="com.example.sinmingu.login.FirebaseService.FirebaseMessageService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.example.sinmingu.login.FirebaseService.FirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
 
         <receiver
-            android:name="com.example.sinmingu.login.MyReceiver"
+            android:name="com.example.sinmingu.login.Activitys.MyReceiver"
             android:enabled="true"
             android:exported="true" >
             <intent-filter>

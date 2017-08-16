@@ -3,12 +3,102 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_bf6227fbc26b76f3756680b9a8d37798e5b5d442\classes.dex" />
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_7d41e7bad3fe7d13575b47627dd93394e2ae6907\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-26.0.0-alpha1_40be106d5d277a8cfdaca5e68de0847a3b0adab1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_a32febba53d8cf7fc642597ca35a57a04454a1e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_3d89b7021430686cf613b240384bfc11dd23557d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_a2827030e911446aaa5ddf94491872d55cb577a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-26.0.0-alpha1_700c792daec8052887ea60d1993a535d06ac0eed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_d17922e268056d40dd3a1b9aa27cbced34568355\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_ca445f151ea007f0e30747b17b3e08d168f1cde8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_4fc87be5d3b913dedc6283ae0e2c41b6584be649\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_30abd435b26ffe83484a4fdd265f20d3c887570a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_a521b7e08e094daac0957926d75dce654af4e6a7\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -30,12 +120,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ab29feaca334790f084e704fffc59ebb2e7b137a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f4639f94813d22ee5953d6dcc61e03b7272da48">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_30fdd37e22c6665965aa6dd606f0a585732cada6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
         <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_bef036bdffdf468ed0986093acaf2cd821e6a163\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_dd875e22680763a293afab7c4565d0b81d588a5e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,12 +174,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\sinmingu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_1496341a629f9ff524a884f0309b9798fab3a3e1\classes.dex" />
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_2f393a4cba9d6bf9751912d886f26b9ce5b26f38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dc4d74db0429d8d86940cea316014a7a0ce57483">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9434888fb195be86d4ba408d48421655ebab0699\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_f1ecab7cf358270ae246a505756f15167b783cea\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,12 +210,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_beadadae4e02fd142e23116b27ac32a2ac2ff96d\classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_0342bc376e753487f7c02ea9afe1b9b0dc54b8d2\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,48 +237,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_d17922e268056d40dd3a1b9aa27cbced34568355\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_4fc87be5d3b913dedc6283ae0e2c41b6584be649\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
         <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_d16fc244e6430afd6708e5d807af5a9dd9112577\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_745ef5c0ab3d8ac6747c9c831364b4be3df474dc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_9afd36b17b63d45b1b069bc97bc90b8917180dee\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -162,6 +261,15 @@
         revision="25.0.2"
         sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
         <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Login\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_a53f3ba2c3ecf63d197cfe2cde6957e6e569a6ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-26.0.0-alpha1_b238bec7f7948986038e2f75b67843c48c2757e7\classes.dex" />
     </item>
     <item
         is-multidex="true"

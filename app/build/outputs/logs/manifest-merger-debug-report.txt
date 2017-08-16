@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:2:1-43:12
 	package
 		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\An
 	android:name
 		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:5:22-67
 application
-ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:7:5-31:19
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:7:5-41:19
 MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.0.1] C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\AndroidManifest.xml:25:5-20
@@ -38,10 +38,10 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\sinmingu
 		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:9:9-43
 	android:theme
 		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:12:9-67
-activity#com.example.sinmingu.login.MainActivity
+activity#com.example.sinmingu.login.Activitys.MainActivity
 ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:13:19-57
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
@@ -52,28 +52,48 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
 		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:17:27-74
-activity#com.example.sinmingu.login.new_member_join
-ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:20:9-53
+activity#com.example.sinmingu.login.Activitys.new_member_join
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:20:9-63
 	android:name
-		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:20:19-50
-activity#com.example.sinmingu.login.chat_list
-ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:21:9-47
+		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:20:19-60
+activity#com.example.sinmingu.login.Activitys.chat_list
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:21:9-57
 	android:name
-		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:21:19-44
-receiver#com.example.sinmingu.login.MyReceiver
-ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:23:9-30:20
+		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:21:19-54
+service#com.example.sinmingu.login.FirebaseService.FirebaseMessageService
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:23:9-27:19
+	android:name
+		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:23:18-72
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:24:13-26:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:25:25-75
+service#com.example.sinmingu.login.FirebaseService.FirebaseInstanceIDService
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:28:9-32:19
+	android:name
+		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:28:18-75
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:29:13-31:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:30:17-79
+	android:name
+		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:30:25-77
+receiver#com.example.sinmingu.login.Activitys.MyReceiver
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:33:9-40:20
 	android:enabled
-		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:25:13-35
+		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:35:13-35
 	android:exported
-		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:24:13-39
+		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:34:13-49
 intent-filter#android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:27:13-29:29
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:37:13-39:29
 action#android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:28:17-82
+ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:38:17-82
 	android:name
-		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:28:25-79
+		ADDED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml:38:25-79
 uses-sdk
 INJECTED from C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:multidex:1.0.1] C:\Users\sinmingu\AndroidStudioProjects\Chat-Program1\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
