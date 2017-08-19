@@ -2,7 +2,6 @@ package com.example.sinmingu.login.Activitys;
 
 import android.app.Dialog;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
@@ -20,14 +19,10 @@ import android.widget.SimpleCursorAdapter;
 import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.bumptech.glide.Glide;
 import com.example.sinmingu.login.DataBase.DBHelper;
 import com.example.sinmingu.login.R;
 
-import static com.example.sinmingu.login.Activitys.MainActivity.auto_login_status;
-import static com.example.sinmingu.login.Activitys.MainActivity.id_input;
-import static com.example.sinmingu.login.Activitys.MainActivity.pw_input;
 import static com.example.sinmingu.login.DataBase.DBHelper.DATABASE_NAME;
 import static com.example.sinmingu.login.DataBase.DBHelper.DATABASE_VERSION;
 
@@ -44,32 +39,24 @@ public class chat_list extends BaseActivity {
     SimpleCursorAdapter adapter;
 
     String user_id;
-    String user_nickname;
+
     DBHelper helper;
     SQLiteDatabase db;
 
     Cursor cursor;
-
-    // 기타 2
-
-    Button user_logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat_list);
 
-        SharedPreferences prefs =getSharedPreferences("User_infor", MODE_PRIVATE);
-        user_id=prefs.getString("User_id","0");
-        user_nickname=prefs.getString("User_nickname","0");
-/*
         //로그인 정보 받아오기
         Intent intent=getIntent();
         String nickname=intent.getExtras().getString("nickname");
         user_id=intent.getExtras().getString("id");
         int user_num=intent.getExtras().getInt("user_num");
-*/
 
+        Log.d("온크리에이트","온크리에이트");
         helper = new DBHelper(this, DATABASE_NAME, null, DATABASE_VERSION);
         try{
             db = helper.getWritableDatabase();
@@ -146,7 +133,7 @@ public class chat_list extends BaseActivity {
 
 */
 
-        //friend_list_num=user_num;
+        friend_list_num=user_num;
 
         //adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, member_list.get(user_num).getFriend_list());
 
@@ -154,12 +141,12 @@ public class chat_list extends BaseActivity {
         TabHost tabHost = (TabHost)findViewById(R.id.tab_host);
         tabHost.setup();
 
-        // Tab1 Setting
+        // Tab1 친구
         TabHost.TabSpec tabSpec1 = tabHost.newTabSpec("Tab1").setIndicator("",getResources().getDrawable(R.drawable.friend));
         tabSpec1.setContent(R.id.tab1); // Tab Content
         tabHost.addTab(tabSpec1);
 
-        // Tab2 Setting
+        // Tab2 채팅
         TabHost.TabSpec tabSpec2 = tabHost.newTabSpec("Tab2").setIndicator("",getResources().getDrawable(R.drawable.chat));
         tabSpec2.setContent(R.id.tab2); // Tab Content
         tabHost.addTab(tabSpec2);
@@ -202,11 +189,9 @@ public class chat_list extends BaseActivity {
         friend_seach=(ImageButton)findViewById(R.id.friend_search);
         Glide.with(this).load(R.drawable.search).fitCenter().into(friend_seach);
 
-        user_logout=(Button)findViewById(R.id.user_logout);
-
         text_chat_status.setText("친구 ("+user_id+")");
 
-        Toast.makeText(getApplicationContext(),"'"+user_nickname+"'님이 로그인 되었습니다.",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"'"+nickname+"'님이 로그인 되었습니다.",Toast.LENGTH_SHORT).show();
 
         //친구검색 버튼 클릭
         friend_seach.setOnClickListener(new View.OnClickListener() {
@@ -246,7 +231,6 @@ public class chat_list extends BaseActivity {
 
             }
         });
-
 /*
         friend_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -296,29 +280,6 @@ public class chat_list extends BaseActivity {
         });
 
         */
-
-        user_logout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                auto_login_status=false;
-
-                //기존 로그인값 저장
-                SharedPreferences pref =getSharedPreferences("User_infor", MODE_PRIVATE);
-                SharedPreferences.Editor editor = pref.edit();
-                editor.putBoolean("Auto_login",auto_login_status);
-                editor.putString("User_id","");
-                editor.putString("User_nickname","");
-                editor.putString("User_password","");
-                editor.commit();
-
-                Toast.makeText(getApplicationContext(), "'"+user_id+"' 님이 로그아웃 되었습니다.",Toast.LENGTH_SHORT).show();
-                Intent intent=new Intent(chat_list.this,MainActivity.class);
-                startActivity(intent);
-
-            }
-        });
-
 
     }
 
@@ -409,20 +370,5 @@ public class chat_list extends BaseActivity {
         myDialog.show();
 
     }
-
-    @Override
-    public void onBackPressed() {
-        //super.onBackPressed();
-
-        SharedPreferences prefs =getSharedPreferences("User_infor", MODE_PRIVATE);
-
-        id_input.setText(prefs.getString("User_id","0"));
-        pw_input.setText(prefs.getString("User_password","0"));
-
-        finish();
-
-    }
-
-
 
 }
